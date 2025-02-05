@@ -8,3 +8,12 @@ erl_crash.dump
 *.beam
 /config/*.secret.exs
 .elixir_ls/
+deps/
+_build/
+novel_engine/
+deps/
+_build/
+code_lingo/deps/
+code_lingo/_build/
+novel_engine/deps/
+novel_engine/_build/

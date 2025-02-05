@@ -1,0 +1,2 @@
+#!/bin/bash
+exec ../.sc/mix.sh code_lingo "$@"

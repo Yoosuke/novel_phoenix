@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  elixir:
+    build: .
+    container_name: elixir-phoenix
+    volumes:
+      - .:/app  # 🔹カレントディレクトリを `/app` にマウント
+    working_dir: ${WORKDIR:-/app/novel_engine}  # デフォルトは `novel_engine`
+    ports:
+      - "4000:4000"
+    stdin_open: true
+    tty: true
